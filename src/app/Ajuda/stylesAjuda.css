@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+h1{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body{
+    height: 100dvh;
+    width: 100dvw;
+    border: 0px;
+    margin: 0px;
+}
+
+
+form{
+    width: 80%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(237, 237, 237, 0.9);
+    border-radius: 3%;
+}
+
+.textBox{
+    margin-top: 2%;
+    width: 90%;
+    height: 15%;
+}
+
+form div{
+    display: flex;
+    margin-top: 2%;
+    width: 90%;
+    height: 15%;
+}
+
+form textarea{
+    margin-top: 10%;
+    width: 90%;
+    height: 35%;
+    resize: none;
+}
+
+.button{
+    align-self: flex-end;
+    margin-top: 2%;
+    margin-right: 4%;
+    width: 20%;
+    height: 5%;
+    background-color: white;
+    border-radius: 5%;
+    border: black 1px solid;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form div .textBox{
+    height: 100%;
+}
+
+
+@media (min-width: 600px) {
+    .page{ 
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    form div{
+        margin-top: 0%;
+
+    }
+    
+    form textarea{
+        margin-top: 5%;
+    }
+
+    .button{
+        width: 10%;
+    }
+}
